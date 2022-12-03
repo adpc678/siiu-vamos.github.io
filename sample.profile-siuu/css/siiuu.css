@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica
+}
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+h2
+{
+    font-size: 6em;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+h2 span
+{
+    transition: 1s;
+}
+h2:hover span:nth-child(1)
+{
+    margin-right: 0px;
+}
+h2:hover span:nth-child(2)
+{
+    margin-left: 40px;
+}
+h2:hover span
+{
+    color: rgb(255, 175, 83);
+    text-shadow: 0 0 10px rgb(255, 120, 10),
+    0 0 20px rgb(255, 0, 0),
+    0 0 40px rgb(255, 0, 0),
+    0 0 80px rgb(255, 0, 0),
+    0 0 120px rgb(255, 0, 0),
+    0 0 160px rgb(255, 0, 0),
+    0 0 180px rgb(255, 0, 0);
+}

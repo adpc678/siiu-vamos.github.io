@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    background-position: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Vamoss
+{
+    color: rgb(187, 91, 26);
+    background: rgba(41, 13, 0, 0.877);
+    border-radius: 100px;
+    padding: 10px 30px;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform:inherit;
+    letter-spacing: 1px;
+}
+header ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.stay{
+    background: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+}
+h1{
+    color:rgb(188, 221, 0);
+    background-color: rgb(21, 24, 10);
+    border-radius:50px 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 1000;
+}
+.contain
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.contain .card
+{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:linear-gradient(45deg,#000000,#bd0404);
+    border-radius: 25px;
+}
+.contain .card img
+{
+    position: relative;
+    bottom: 25;
+    left: 30%;
+    transform: translateX(-58%);
+    height: 350px;
+    transition: 0.27s;
+    border-bottom-right-radius: 20px;
+   
+}
+.contain .card:hover img
+{
+    left: 35%;
+    height: 365px;
+}
+.contain .card .content
+{
+    position: relative;
+    width: 50%;
+    left: 15%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.contain .card:hover .content
+{
+    left: 0%;
+    opacity: 100;
+    visibility: visible;
+}
+.contain .card .content h2
+{
+    color:rgb(235, 197, 31);
+    text-transform: inherit;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.contain .card .content p
+{
+    color:rgb(202, 202, 202);
+}
+.contain .card .content a
+{
+    position: relative;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
